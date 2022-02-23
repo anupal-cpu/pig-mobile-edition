@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./custom.css" />
+    <script defer src="./app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main flex justify-center items-center w-full h-screen">
+      <div
+      
+        class=" wrap overflow-hidden relative flex justify-center items-center"
+      >
+        <div
+          class="container rounded-xl relative flex w-72 h-96 bg-gradient-to-br from-pink-700 to-purple-700"
+        >
+          <section
+            class="player player--1 active w-6/12 flex flex-col justify-around items-center"
+          >
+            <div class="name--area flex flex-col justify-center items-center">
+              <h1 class="name font-bold text-lg">PLAYER1</h1>
+
+              <h1 class="score">87</h1>
+            </div>
+            <div
+              class="current--score-area flex flex-col justify-center items-center"
+            >
+              <h1 class="current--score-text text-white">CURRENT</h1>
+              <h1 class="current--score text-xl">0</h1>
+            </div>
+          </section>
+          <section
+            class="player player--2 w-6/12 flex flex-col justify-around items-center"
+          >
+            <div class="name--area flex flex-col justify-center items-center">
+              <h1 class="name font-bold text-lg">PLAYER1</h1>
+              <h1 class="score">0</h1>
+            </div>
+            <div
+              class="current--score-area flex flex-col justify-center items-center"
+            >
+              <h1 class="current--score-text text-white">CURRENT</h1>
+              <h1 class="current--score text-xl">0</h1>
+            </div>
+          </section>
+        </div>
+        <button class="btn btn--roll shadow-lg">ROLL DICE</button>
+        <button class="btn btn--hold shadow-lg">HOLD</button>
+        <img src="./dice-5.png" class="img--dice" alt="img" />
+        <h1 class="win absolute text-green"></h1>
+      </div>
+     
+  
+  </body>
+</html>

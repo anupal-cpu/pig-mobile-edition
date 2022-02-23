@@ -1,0 +1,79 @@
+.player--1,
+.player--2 {
+  background-color: rgba(225, 225, 225, 0.4);
+  transition: 0.5s ease;
+}
+
+.active {
+  background-color: rgba(225, 225, 225, 0.7);
+  transition: 0.5s ease;
+}
+
+.current--score-area {
+  background-color: rgb(223, 35, 91);
+  width: 65%;
+
+  border-radius: 4px;
+}
+
+.score {
+  color: rgb(223, 35, 91);
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: rgba(225, 225, 225, 0.7);
+  position: absolute;
+}
+
+.btn--roll {
+  bottom: 2rem;
+  font-size: 15px;
+  padding: 0 6px;
+
+  border-radius: 999px;
+  transition: all 0.4s ease;
+}
+
+.btn--hold {
+  padding: 0 6px;
+  border-radius: 999px;
+  transition: all 0.4s ease;
+  bottom: 8rem;
+
+  font-size: 15px;
+}
+
+.btn--hold:active {
+  transform: translateY(5px);
+  box-shadow: none;
+  transition: 0.4s ease;
+}
+
+.btn--roll:active {
+  transform: translateY(5px);
+  box-shadow: none;
+  transition: 0.4s ease;
+}
+
+.img--dice {
+  position: absolute;
+  width: 3rem;
+  bottom: 14rem;
+}
+
+.win {
+  top: 2rem;
+  transform: translateX(-999px);
+  color: rgb(5, 59, 21);
+}
+
+.win-come {
+  transform: translateX(0);
+  transition: all 1s ease;
+}
+
+.container {
+  overflow: hidden;
+}
